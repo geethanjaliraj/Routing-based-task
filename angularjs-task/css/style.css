@@ -1,0 +1,96 @@
+body{
+	padding: 0;
+	margin: 0;
+	display: grid;
+	background-color: #000;
+}
+.container{
+	width: 100%;
+	/*background-color: #000;*/
+}
+.left-info{
+	width: 25%;
+	float: left;
+}
+.right-info{
+	width: 75%;
+}
+.logo{
+	background-color: #00ace6;
+}
+.logo img{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+.top-heading{
+	background-color: #808080;
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.top-heading p{
+	margin: 0;
+    color: #fff;
+    font-size: 17px;
+}
+.main-div{
+	background-color: #464545;
+}
+.div1{
+	background-color: #ff531a;
+}
+.div2{
+	background-color: #ff99ff;
+}
+.div3{
+	background-color: #004d80;
+}
+.div4{
+	background-color: #ffdb4d;
+}
+.show-colors{
+	display: flex;
+	justify-content: center;
+}
+.show-colors div{
+	width: 10%;
+    /*background-color: red;*/
+    margin: 10px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+}
+.divider{
+	width: 300px;
+	margin-bottom: 10px;
+	border-color: #808080;
+}
+.content-div div{
+	background-color: #808080;
+    border: 1px solid #808080;
+    color: #fff;
+	margin: 20px;
+}
+.effect-bg a{
+	text-decoration: none;
+    color: #fff;
+}
+.content-div p{
+	margin-left: 20px;
+}
+.bg-change{
+	background-color: red;
+	width: 100%;
+	height: 700px;
+}
+.social-icons{
+	margin: 40px 0px 0px 20px;
+    padding-bottom: 170px;
+    color: #fff;
+}
+.centered-text{
+	color: #fff;
+	font-size: 40px;
+}

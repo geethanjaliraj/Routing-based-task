@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app= "myApp">
+<head>
+	<title>Angular Basics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="left-info">
+			<div class="logo">
+				<img src="images/logo.jpg">
+			</div>
+			<div class="top-heading">
+				<p>Design</p>
+			</div>
+			<div class="main-div">
+				<div class="show-colors">
+					<div class="div1"></div>
+					<div class="div2"></div>
+					<div class="div3"></div>
+					<div class="div4"></div>
+				</div>
+				<hr class="divider">
+				<div class="content-div">
+					<div class="effect-theme">
+						<p><a ui-sref="">Change Theme</a></p>
+					</div>
+					<div class="effect-fonts">
+						<p><a ui-sref="">Change Fonts</a></p>
+					</div>
+					<div class="effect-bg">
+						<p onclick="changeBG()" id="bg-change"><a ui-sref="bgchange">Change Background</a></p>
+					</div>
+				</div>
+				<div class="social-icons">
+					<p>Social Icons</p>
+				</div>
+			</div>
+		</div>
+		<div class="right-info">
+			<p class="centered-text">Welcome to our website</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<!-- <script type="text/javascript" src="js/angular-ui-router.js"></script> -->
+	<script type="text/javascript" src="js/first.js"></script>
+</body>
+</html>
